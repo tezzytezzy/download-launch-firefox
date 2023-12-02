@@ -56,7 +56,7 @@ echo "Extracting the files..."
 tar xfC "${SCRIPT_DIRECTORY}/${FIREFOX_TAR_FILE}" "${SCRIPT_DIRECTORY}"
 
 echo "Launching Firefox in private mode..."
-"${SCRIPT_DIRECTORY}"/firefox/firefox -private
+"${SCRIPT_DIRECTORY}"/firefox/firefox -private-window
 
 # TODO(tezzy): Make the Terminal calling this script close itself in `sh ./download_launch_firefox.sh`
 # The followings were tried and failed:
